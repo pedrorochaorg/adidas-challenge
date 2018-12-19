@@ -14,7 +14,7 @@ I've failed to create all the test cases that were required during the challenge
 
 ## Running the project
 
-Just run the command `docker-compose up` in the project dir.
+Just run the command `docker-compose build` and then `docker-compose up` in the project dir.
 
 The Api should be accessible through `http://localhost:8081`.
 
