@@ -1,0 +1,26 @@
+# Adidas Challenge
+
+I've created a simple starter that has 2 projects as submodules, as requestes by the exercise.
+
+I've failed to create all the test cases that were required during the challenge duration.
+
+## Requesites
+
+- Docker/Docker Compose 18.00.0+
+
+
+## Running the project
+
+Just enter the command `docker-compose up` in the project dir.
+
+The Api should be accessible through `http://localhost:8081`.
+
+You can finder swagger docs in the path `/swagger-ui.html`.
+
+
+## Api Authentication
+
+The default authentication is Basic Auth, the usernames with lowest to highest permission level are:
+
+- user:password
+- admin:admin
