@@ -1,0 +1,6 @@
+[submodule "products"]
+	path = products
+	url = git@github.com:pedrorochaorg/Adidas-Product-Api.git
+[submodule "reviews"]
+	path = reviews
+	url = git@github.com:pedrorochaorg/Adiddas-Product-Reviews.git
