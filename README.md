@@ -7,11 +7,14 @@ I've failed to create all the test cases that were required during the challenge
 ## Requesites
 
 - Docker/Docker Compose 18.00.0+
+- Java 8
+- Gradle 4.6+
+
 
 
 ## Running the project
 
-Just enter the command `docker-compose up` in the project dir.
+Just run the command `docker-compose up` in the project dir.
 
 The Api should be accessible through `http://localhost:8081`.
 

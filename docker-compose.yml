@@ -8,12 +8,12 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: example
       MONGO_INITDB_DATABASE: reviews
   reviews:
-    build: reviews/
+    build: docker/reviews/
     restart: always
     depends_on:
       - mongodb
   products:
-    build: products/
+    build: docker/products/
     restart: always
     depends_on:
       - mongodb
