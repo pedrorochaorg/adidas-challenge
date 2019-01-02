@@ -10,7 +10,9 @@ I've failed to create all the test cases that were required during the challenge
 - Java 8
 - Gradle 4.6+
 
+## Cloning this repo.
 
+While cloning this repo please use the flag `--recurse-submodules` in the `git clone` cmd
 
 ## Running the project
 
